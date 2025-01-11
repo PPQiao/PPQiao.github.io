@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文档攻略 :: EVE教程</title>
+    <link>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 11 Jan 2025 14:52:33 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一步</title>
+      <link>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html</link>
+      <pubDate>Sat, 11 Jan 2025 14:52:17 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>游戏机制</title>
+      <link>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.html</link>
+      <pubDate>Sat, 11 Jan 2025 14:52:25 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>玩法攻略</title>
+      <link>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.html</link>
+      <pubDate>Sat, 11 Jan 2025 14:52:33 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%96%87%E6%A1%A3%E6%94%BB%E7%95%A5/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
