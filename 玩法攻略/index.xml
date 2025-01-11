@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>玩法攻略 :: EVE教程</title>
+    <link>http://localhost:1313/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.html</link>
+    <description>This is a new chapter.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>游戏机制 :: EVE教程</title>
+    <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.html</link>
+    <description>This is a new chapter.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
