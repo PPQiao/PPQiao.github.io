@@ -7,7 +7,8 @@
     <meta name="generator" content="Relearn 7.3.1">
     <meta name="description" content="武器分类 EVE中常规的武器分类有三大类: 导弹, 无人机, 炮
 此外还有一些新出的武器比如电弧发射器, 分裂者逃生舱发射器等等不常用的.
-导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度 伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
+导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度
+伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
 属性 名称 与导弹最终伤害相关 备注 S 目标信号半径 正相关 舰船信号半径增加的手段有很多:微曲,盾扩,标记,船插 Vt 目标速度 负相关 减慢对方速度常用的手段: 网子, 减速泡泡, 扰频, 撞击 D 导弹基础伤害 正相关 导弹弹药类型和船体加成 E 导弹爆炸半径 负相关 导弹弹药类型和船体加成,导弹计算机 Ve 导弹爆炸速度 正相关 导弹弹药类型和船体加成,导弹计算机 drf 伤害削弱系数 负相关 导弹的“伤害削弱系数”(drf)在游戏中并没有被提到，但是却被包含在了CCP公开的数据库里 导弹的特殊机制 导弹只要能够追上目标, 则一定可以造成伤害, 不像炮术还需要命中. 除非目标超级高速船(比导弹还快)以外,导弹可以简单认为是射程内必中的. 但是导弹的伤害受到几乎导弹所有技能的影响, 因此导弹船对技能的要求比较高.">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary_large_image">
@@ -15,14 +16,16 @@
     <meta name="twitter:title" content="武器分类与机制 :: EVE教程">
     <meta name="twitter:description" content="武器分类 EVE中常规的武器分类有三大类: 导弹, 无人机, 炮
 此外还有一些新出的武器比如电弧发射器, 分裂者逃生舱发射器等等不常用的.
-导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度 伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
+导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度
+伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
 属性 名称 与导弹最终伤害相关 备注 S 目标信号半径 正相关 舰船信号半径增加的手段有很多:微曲,盾扩,标记,船插 Vt 目标速度 负相关 减慢对方速度常用的手段: 网子, 减速泡泡, 扰频, 撞击 D 导弹基础伤害 正相关 导弹弹药类型和船体加成 E 导弹爆炸半径 负相关 导弹弹药类型和船体加成,导弹计算机 Ve 导弹爆炸速度 正相关 导弹弹药类型和船体加成,导弹计算机 drf 伤害削弱系数 负相关 导弹的“伤害削弱系数”(drf)在游戏中并没有被提到，但是却被包含在了CCP公开的数据库里 导弹的特殊机制 导弹只要能够追上目标, 则一定可以造成伤害, 不像炮术还需要命中. 除非目标超级高速船(比导弹还快)以外,导弹可以简单认为是射程内必中的. 但是导弹的伤害受到几乎导弹所有技能的影响, 因此导弹船对技能的要求比较高.">
     <meta property="og:url" content="http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html">
     <meta property="og:site_name" content="EVE教程">
     <meta property="og:title" content="武器分类与机制 :: EVE教程">
     <meta property="og:description" content="武器分类 EVE中常规的武器分类有三大类: 导弹, 无人机, 炮
 此外还有一些新出的武器比如电弧发射器, 分裂者逃生舱发射器等等不常用的.
-导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度 伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
+导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度
+伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
 属性 名称 与导弹最终伤害相关 备注 S 目标信号半径 正相关 舰船信号半径增加的手段有很多:微曲,盾扩,标记,船插 Vt 目标速度 负相关 减慢对方速度常用的手段: 网子, 减速泡泡, 扰频, 撞击 D 导弹基础伤害 正相关 导弹弹药类型和船体加成 E 导弹爆炸半径 负相关 导弹弹药类型和船体加成,导弹计算机 Ve 导弹爆炸速度 正相关 导弹弹药类型和船体加成,导弹计算机 drf 伤害削弱系数 负相关 导弹的“伤害削弱系数”(drf)在游戏中并没有被提到，但是却被包含在了CCP公开的数据库里 导弹的特殊机制 导弹只要能够追上目标, 则一定可以造成伤害, 不像炮术还需要命中. 除非目标超级高速船(比导弹还快)以外,导弹可以简单认为是射程内必中的. 但是导弹的伤害受到几乎导弹所有技能的影响, 因此导弹船对技能的要求比较高.">
     <meta property="og:locale" content="zh_cn">
     <meta property="og:type" content="article">
@@ -33,18 +36,19 @@
     <meta itemprop="name" content="武器分类与机制 :: EVE教程">
     <meta itemprop="description" content="武器分类 EVE中常规的武器分类有三大类: 导弹, 无人机, 炮
 此外还有一些新出的武器比如电弧发射器, 分裂者逃生舱发射器等等不常用的.
-导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度 伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
+导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度
+伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:
 属性 名称 与导弹最终伤害相关 备注 S 目标信号半径 正相关 舰船信号半径增加的手段有很多:微曲,盾扩,标记,船插 Vt 目标速度 负相关 减慢对方速度常用的手段: 网子, 减速泡泡, 扰频, 撞击 D 导弹基础伤害 正相关 导弹弹药类型和船体加成 E 导弹爆炸半径 负相关 导弹弹药类型和船体加成,导弹计算机 Ve 导弹爆炸速度 正相关 导弹弹药类型和船体加成,导弹计算机 drf 伤害削弱系数 负相关 导弹的“伤害削弱系数”(drf)在游戏中并没有被提到，但是却被包含在了CCP公开的数据库里 导弹的特殊机制 导弹只要能够追上目标, 则一定可以造成伤害, 不像炮术还需要命中. 除非目标超级高速船(比导弹还快)以外,导弹可以简单认为是射程内必中的. 但是导弹的伤害受到几乎导弹所有技能的影响, 因此导弹船对技能的要求比较高.">
     <meta itemprop="datePublished" content="2025-02-19T15:31:27+08:00">
     <meta itemprop="dateModified" content="2025-02-19T15:31:27+08:00">
     <meta itemprop="wordCount" content="160">
     <meta itemprop="image" content="http://localhost:1313/img/OKMr.png">
     <title>武器分类与机制 :: EVE教程</title>
-    <link href="/css/fontawesome-all.min.css?1739977226" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1739977226" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1739977226" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1739977226" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1739977226" rel="stylesheet">
-    <link href="/css/theme.css?1739977226" rel="stylesheet">
-    <link href="/css/format-html.css?1739977226" rel="stylesheet" id="R-format-style">
+    <link href="/css/fontawesome-all.min.css?1739978327" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1739978327" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1739978327" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1739978327" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1739978327" rel="stylesheet">
+    <link href="/css/theme.css?1739978327" rel="stylesheet">
+    <link href="/css/format-html.css?1739978327" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -117,7 +121,7 @@
           <div class="topbar-area topbar-area-end" data-area="end">
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.html" title="游戏机制 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html" title="第一步 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.html" title="玩法攻略 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -156,7 +160,7 @@
     导弹
   </summary>
 </details><br>
-射程: 导弹的射程简单地等于飞行时间x飞行速度
+射程: 导弹的射程简单地等于飞行时间x飞行速度<br>
 伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf
 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf]
 因此我们可以简单归纳为下表:</p>
@@ -377,9 +381,9 @@
       <div id="R-content-wrapper" class="highlightable">
         <div id="R-shortcutmenu-home" class="R-sidebarmenu">
           <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html"><a class="padding" href="/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html">第一步<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-23180cf64ac5eb1f49d14d987483f9f4" class="collapsible-menu"></ul></li>
             <li class="parent " data-nav-id="/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.html"><a class="padding" href="/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.html">游戏机制<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-38c54d5ed3ef23516053d5ab0faad087" class="collapsible-menu">
             <li class="active " data-nav-id="/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html"><a class="padding" href="/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html">武器分类与机制<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
-            <li class="" data-nav-id="/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html"><a class="padding" href="/%E7%AC%AC%E4%B8%80%E6%AD%A5/index.html">第一步<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-23180cf64ac5eb1f49d14d987483f9f4" class="collapsible-menu"></ul></li>
             <li class="" data-nav-id="/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.html"><a class="padding" href="/%E7%8E%A9%E6%B3%95%E6%94%BB%E7%95%A5/index.html">玩法攻略<i class="fa-fw fas fa-check read-icon"></i></a></li>
           </ul>
         </div>
@@ -434,8 +438,8 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1739977226" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1739977226" defer></script>
-    <script src="/js/theme.js?1739977226" defer></script>
+    <script src="/js/clipboard.min.js?1739978327" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1739978327" defer></script>
+    <script src="/js/theme.js?1739978327" defer></script>
   </body>
 </html>
