@@ -6,14 +6,84 @@
     <description>为什么要了解游戏机制? EVE是一个复杂的网络游戏, 而且其中包含了大量PVP成分, 如果你不了解游戏机制, 那么在有胜负的PVP玩法中你将难以取得胜利, 在需要研究游戏机制攻克难关的PVE玩法中你将难以取得收益.举个栗子, 玩刀塔或英雄联盟的话, 一个胜率高的老玩家会不了解游戏内的道具吗?&#xA;游戏机制包含哪些内容? 根据你想体验的游戏内容决定, 因此包含十分广泛的分类. 比如PVP的玩法, 你将不得不了解游戏内的各种武器装备的属性, 弹药的属性, 舰船的加成和属性以及NPC海军和统合部执法官的机制; 如果你参与PVE的玩法, 那么你将不得不了解游戏内的代理人声望机制, 怪物的转火,毁电,暴动机制. 如果你参与工业与商业, 你将不得不了解一下生产线, 蓝图, 销售税, 玩家建筑等等内容.&#xA;这么多内容我从何学起? 不用担心, 我会逐个分解, 一个个地教给你, 散碎时间看看就行. 这个游戏本就是个慢慢玩的游戏, 很多人玩了一两年还啥也不懂的.</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 Feb 2025 15:31:27 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 18:31:27 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>武器分类与机制</title>
-      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html</link>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/1%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html</link>
       <pubDate>Wed, 19 Feb 2025 15:31:27 +0800</pubDate>
-      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html</guid>
-      <description>武器分类 EVE中常规的武器分类有三大类: 导弹, 无人机, 炮&#xA;此外还有一些新出的武器比如电弧发射器, 分裂者逃生舱发射器等等不常用的.&#xA;导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度&#xA;伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:&#xA;属性 名称 与导弹最终伤害相关 备注 S 目标信号半径 正相关 舰船信号半径增加的手段有很多:微曲,盾扩,标记,船插 Vt 目标速度 负相关 减慢对方速度常用的手段: 网子, 减速泡泡, 扰频, 撞击 D 导弹基础伤害 正相关 导弹弹药类型和船体加成 E 导弹爆炸半径 负相关 导弹弹药类型和船体加成,导弹计算机 Ve 导弹爆炸速度 正相关 导弹弹药类型和船体加成,导弹计算机 drf 伤害削弱系数 负相关 导弹的“伤害削弱系数”(drf)在游戏中并没有被提到，但是却被包含在了CCP公开的数据库里 导弹的特殊机制 导弹只要能够追上目标, 则一定可以造成伤害, 不像炮术还需要命中. 除非目标超级高速船(比导弹还快)以外,导弹可以简单认为是射程内必中的. 但是导弹的伤害受到几乎导弹所有技能的影响, 因此导弹船对技能的要求比较高.</description>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/1%E6%AD%A6%E5%99%A8%E5%88%86%E7%B1%BB%E4%B8%8E%E6%9C%BA%E5%88%B6/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1k6BMYwEvy&#xD;武器分类 EVE中常规的武器分类有三大类: 导弹, 无人机, 炮&#xA;此外还有一些新出的武器比如电弧发射器, 分裂者逃生舱发射器等等不常用的.&#xA;导弹 射程: 导弹的射程简单地等于飞行时间x飞行速度&#xA;伤害: 影响导弹伤害的因素: 目标信号半径S, 目标速度Vt, 导弹基础伤害D, 导弹爆炸半径E, 导弹爆炸速度Ve, 伤害削弱系数drf 导弹的伤害由一个复杂公式算出, 造成的伤害 = D * min[1, S/E, (S/E*Ve/Vt)^drf] 因此我们可以简单归纳为下表:&#xA;属性 名称 与导弹最终伤害相关 备注 S 目标信号半径 正相关 舰船信号半径增加的手段有很多:微曲,盾扩,标记,船插 Vt 目标速度 负相关 减慢对方速度常用的手段: 网子, 减速泡泡, 扰频, 撞击 D 导弹基础伤害 正相关 导弹弹药类型和船体加成 E 导弹爆炸半径 负相关 导弹弹药类型和船体加成,导弹计算机 Ve 导弹爆炸速度 正相关 导弹弹药类型和船体加成,导弹计算机 drf 伤害削弱系数 负相关 导弹的“伤害削弱系数”(drf)在游戏中并没有被提到，但是却被包含在了CCP公开的数据库里 导弹的特殊机制 导弹只要能够追上目标, 则一定可以造成伤害, 不像炮术还需要命中. 除非目标超级高速船(比导弹还快)以外,导弹可以简单认为是射程内必中的. 但是导弹的伤害受到几乎导弹所有技能的影响, 因此导弹船对技能的要求比较高.</description>
+    </item>
+    <item>
+      <title>舰船分类与简介</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/2%E8%88%B0%E8%88%B9%E5%88%86%E7%B1%BB%E4%B8%8E%E7%AE%80%E4%BB%8B/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 15:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/2%E8%88%B0%E8%88%B9%E5%88%86%E7%B1%BB%E4%B8%8E%E7%AE%80%E4%BB%8B/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1QeBUYtEwy&#xD;四大帝国及其舰船特点 游戏内&#34;舰船树形图&#34;前四个势力就是四大帝国: 艾玛, 加达里, 盖伦特, 米玛塔尔.&#xA;它们四个势力是拥有游戏中种类最齐全的舰船,而且价格也最合理, 一般我们用的最多的舰船就是来自四大帝国.&#xA;四大帝国舰船特点:&#xA;帝国 防御类型 增加防御的方式 武器类型 机动性 电子战优势类型 艾玛 装甲 加抗性 导弹, 能量炮, 无人机 差 能量中和, 武器干扰 盖伦特 装甲,结构 加修量 混合炮, 无人机 优 锁定压制, 跃迁干扰 加达里 护盾 加抗性 导弹, 混合炮 差 锁定干扰ECM 米玛塔尔 护盾 加修量 导弹, 射弹炮 优 目标标记, 停滞缠绕</description>
+    </item>
+    <item>
+      <title>交易系统</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/3%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 17:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/3%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1fjznYFEYY</description>
+    </item>
+    <item>
+      <title>舰船装配</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/4%E8%88%B0%E8%88%B9%E8%A3%85%E9%85%8D/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 16:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/4%E8%88%B0%E8%88%B9%E8%A3%85%E9%85%8D/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1CZziY7EKX</description>
+    </item>
+    <item>
+      <title>声望系统</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/5%E5%A3%B0%E6%9C%9B%E7%B3%BB%E7%BB%9F/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/5%E5%A3%B0%E6%9C%9B%E7%B3%BB%E7%BB%9F/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1grzoYSEVE</description>
+    </item>
+    <item>
+      <title>导弹</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/6%E5%AF%BC%E5%BC%B9/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/6%E5%AF%BC%E5%BC%B9/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1mbBMYzE7b</description>
+    </item>
+    <item>
+      <title>炮台</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/7%E7%82%AE%E5%8F%B0/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/7%E7%82%AE%E5%8F%B0/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1qQBMY9EMA</description>
+    </item>
+    <item>
+      <title>无人机</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/8%E6%97%A0%E4%BA%BA%E6%9C%BA/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/8%E6%97%A0%E4%BA%BA%E6%9C%BA/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1rCBMYFEui</description>
+    </item>
+    <item>
+      <title>护盾</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/9%E6%8A%A4%E7%9B%BE/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/9%E6%8A%A4%E7%9B%BE/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1ESkcYmEWg</description>
+    </item>
+    <item>
+      <title>装甲与结构</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/10%E8%A3%85%E7%94%B2%E4%B8%8E%E7%BB%93%E6%9E%84/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/10%E8%A3%85%E7%94%B2%E4%B8%8E%E7%BB%93%E6%9E%84/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1CzkcYWEpN</description>
+    </item>
+    <item>
+      <title>技能系统</title>
+      <link>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/11%E6%8A%80%E8%83%BD/index.html</link>
+      <pubDate>Sat, 22 Feb 2025 18:31:27 +0800</pubDate>
+      <guid>http://localhost:1313/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6/11%E6%8A%80%E8%83%BD/index.html</guid>
+      <description>本视频一切权利归 bilibili 及 原作者所有&#xD;如果觉得好， 请点击跳转到 bilibili给予支持&#xD;BV1o9zNYUEdf</description>
     </item>
   </channel>
 </rss>
